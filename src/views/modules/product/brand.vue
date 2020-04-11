@@ -43,7 +43,7 @@
         align="center"
         label="品牌logo地址">
        <template slot-scope="scope">
-         <img :src="scope.row.logo" style="width: 100px; height: 100px">
+         <img :src="scope.row.logo" style="width: 50px; height: 50px">
        </template>
       </el-table-column>
       <el-table-column
@@ -134,7 +134,7 @@
       updateShowStatus (data) {
         let {brandId, showStatus} = data
         this.$http({
-          url: this.$http.adornUrl('/product/brand/update'),
+          url: this.$http.adornUrl('/product/brand/update/status'),
           method: 'post',
           data: this.$http.adornData({brandId, showStatus: showStatus ? 1 : 0}, false)
         }).then(({data}) => {

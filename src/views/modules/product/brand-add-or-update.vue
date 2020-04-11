@@ -49,9 +49,9 @@
           name: '',
           logo: '',
           descript: '',
-          showStatus: '1',
+          showStatus: 1,
           firstLetter: '',
-          sort: '0'
+          sort: 0
         },
         dataRule: {
           name: [
@@ -70,7 +70,7 @@
             {
               validator: (rule, value, callback) => {
                 if (!/^[a-zA-Z]$/.test(value)) {
-                  callback(new Error('请输入【a-zA-Z】任意字母'))
+                  callback(new Error('请输入任意字母'))
                 } else if (value === '') {
                   callback(new Error('首字母为必填项'))
                 } else {
