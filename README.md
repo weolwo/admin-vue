@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+# admin-vue
+- 商城后台管理基于renren-fast-vue
 ## renren-fast-vue
 - admin-vue基于vue、element-ui构建开发，实现[renren-fast](https://gitee.com/renrenio/renren-fast)后台管理前端功能，提供一套更优的前端解决方案
 - 前后端分离，通过token进行数据交互，可独立部署
@@ -21,4 +22,3 @@
 =======
 # admin-vue
 商城后台管理
->>>>>>> cc60fb3565bf93ef7c498b2f8c1aa802c3970b33
